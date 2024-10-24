@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.06,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.125,
         "min_hole_clearance": 0.125,
@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.125,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -179,9 +179,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.3,
-        0.4
+        0.1
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -215,12 +213,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.15,
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
@@ -672,25 +666,19 @@
           "group_by": false,
           "label": "CONFIG",
           "name": "CONFIG",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Distributor",
           "name": "Distributor",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Field-1",
-          "name": "Field-1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Mfr.",
           "name": "Mfr.",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -700,34 +688,22 @@
         },
         {
           "group_by": false,
-          "label": "Order Number",
-          "name": "Order Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order-Nr.",
+          "name": "Order-Nr.",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {
