@@ -25302,19 +25302,92 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 89 63)
-		(end 158 154)
+	(gr_arc
+		(start 89 68)
+		(mid 90.464466 64.464466)
+		(end 94 63)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "4a0278fe-af57-4d34-811d-d9510045901d")
+		(uuid "1bf08c60-572f-4bcf-9c6b-ab7a3431ca19")
+	)
+	(gr_arc
+		(start 158 149)
+		(mid 156.535534 152.535534)
+		(end 153 154)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2753edc9-9afd-4700-bebf-a28ac28af040")
+	)
+	(gr_line
+		(start 158 68)
+		(end 158 149)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7b8c676b-f4e0-43bb-b93c-ebdd28cb0a93")
+	)
+	(gr_line
+		(start 89 149)
+		(end 89 68)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "89ab1c49-6b6e-4c30-ab5d-d0e1c2a23961")
+	)
+	(gr_line
+		(start 153 154)
+		(end 94 154)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "963cd001-2734-468f-99d3-8821b393cb1e")
+	)
+	(gr_arc
+		(start 94 154)
+		(mid 90.464466 152.535534)
+		(end 89 149)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "97fec2c9-4f81-4671-987a-439bb67019cd")
+	)
+	(gr_arc
+		(start 153 63)
+		(mid 156.535534 64.464466)
+		(end 158 68)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9bf00122-88c9-4553-bda5-fc7f81d5dd2e")
+	)
+	(gr_line
+		(start 94 63)
+		(end 153 63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d96bec0-8e46-4fd0-b512-1aef099f2a78")
 	)
 	(gr_text "1.0"
-		(at 155 153 0)
+		(at 151 153 0)
 		(layer "F.Cu")
 		(uuid "624e1bb1-b47a-4b8e-9d31-7aa94c4925ff")
 		(effects
@@ -25349,6 +25422,32 @@
 			(justify left)
 		)
 	)
+	(gr_text "Battery Measure"
+		(at 132.5 101 0)
+		(layer "F.SilkS")
+		(uuid "128f1967-7cd7-4670-b1e0-c5deb1be9c68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ZSRing Development Board"
+		(at 155 65.5 0)
+		(layer "F.SilkS")
+		(uuid "1afd1321-df38-4d21-a57a-8b3dbcf35b71")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
 	(gr_text "SHPACT"
 		(at 149.2 144 270)
 		(layer "F.SilkS")
@@ -25373,6 +25472,32 @@
 			(justify left)
 		)
 	)
+	(gr_text "BQ51013B Qi Receiver"
+		(at 95 78.5 0)
+		(layer "F.SilkS")
+		(uuid "328e6cc5-68fe-4023-b6b5-7d6ad82b1449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MAX30101 +\nMAX32664\nBiometric Sensor Hub\nPulse Oximeter and\nHeart-Rate "
+		(at 104.5 125.5 0)
+		(layer "F.SilkS")
+		(uuid "447944cf-a3b6-4b91-981d-a696d1f07bec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "~{HR-Reset}"
 		(at 111.1 144 270)
 		(layer "F.SilkS")
@@ -25383,6 +25508,32 @@
 				(thickness 0.12)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "KXTJ3 Accelerometer"
+		(at 94 94.5 0)
+		(layer "F.SilkS")
+		(uuid "591ad2f5-4b2d-422c-b00b-9d51ac07d8ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "nPM1100 PMIC"
+		(at 135.5 84 0)
+		(layer "F.SilkS")
+		(uuid "5c185845-29d0-4939-b5d4-7723071e85a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "V_{LED}"
@@ -25527,6 +25678,19 @@
 				(thickness 0.12)
 			)
 			(justify left)
+		)
+	)
+	(gr_text "TPS61240\n5V Regulator"
+		(at 132 119 0)
+		(layer "F.SilkS")
+		(uuid "ca5f14c9-e0e6-413c-b687-1bac542af8af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "SCL-Slave"
